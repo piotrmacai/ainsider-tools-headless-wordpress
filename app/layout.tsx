@@ -26,10 +26,10 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "WordPress & Next.js Starter by 9d8",
+  title: "Ainsider AI Tools Library",
   description:
-    "A starter template for Next.js with WordPress as a headless CMS.",
-  metadataBase: new URL("https://wp.9d8.dev"),
+    "Find the best AI Software for your business",
+  metadataBase: new URL("https://ainsider.tools"),
 };
 
 // Revalidate content every hour
@@ -102,7 +102,7 @@ const Nav = ({ className, children, id }: NavProps) => {
             ))}
           </div>
           <Button asChild className="hidden sm:flex">
-            <Link href="https://github.com/9d8dev/next-wp">Get Started</Link>
+            <Link href="https://ainsider.beehiiv.com/">Newsletter</Link>
           </Button>
           <MobileNav />
         </div>
@@ -159,7 +159,7 @@ const Footer = () => {
         <Container className="border-t not-prose flex flex-col md:flex-row md:gap-2 gap-6 justify-between md:items-center">
           <ThemeToggle />
           <p className="text-muted-foreground">
-            © <a href="https://9d8.dev">9d8</a>. All rights reserved.
+            © <a href="https://macai.studio">macai.studio</a>. All rights reserved.
             2024-present.
           </p>
         </Container>

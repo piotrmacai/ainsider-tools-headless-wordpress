@@ -30,7 +30,7 @@ export default async function Page({
   const categories = await getAllCategories();
 
   const page = pageParam ? parseInt(pageParam, 10) : 1;
-  const postsPerPage = 9;
+  const postsPerPage = 39;
   const totalPages = Math.ceil(posts.length / postsPerPage);
 
   const paginatedPosts = posts.slice(
@@ -41,7 +41,7 @@ export default async function Page({
   return (
     <Section>
       <Container>
-        <h1>Posts</h1>
+        <h1>AI Tools Library by Ainsider</h1>
         <FilterPosts
           authors={authors}
           tags={tags}
